@@ -1717,7 +1717,7 @@ ul.unstyled {
   }
 
   .feature-item-small{
-    display: block;
+    display: inherit;
   }
 }
 
@@ -1728,13 +1728,16 @@ ul.unstyled {
 }
 
 #tour-carousel img{
-  height: auto;
+  max-height: 619px;
+}
+
+#tour-carousel.carousel{
+  overflow: hidden;
 }
 
 
 @media (max-width: 768px) {
   #tour-carousel.carousel{
-    height: 380px;
     overflow: hidden;
   }
 

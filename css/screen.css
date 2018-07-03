@@ -1758,6 +1758,7 @@ ul.unstyled {
 @media (min-width: 768px) {
   .site-footer-logo {
     margin-bottom: 30px;
+    margin: 0px auto;
   }
 }
 

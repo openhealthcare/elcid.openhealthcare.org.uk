@@ -1724,6 +1724,7 @@ ul.unstyled {
 @media (max-width: 767px) {
   #customer-logos.row img{
     max-width: 100%;
+    margin-top: 24px;
   }
 }
 
@@ -1818,7 +1819,7 @@ ul.unstyled {
   }
 }
 
-.site-footer-logo {
+.site-footer-{
   margin: 0 auto 20px;
 }
 
@@ -1865,6 +1866,7 @@ ul.unstyled {
 
  #customer-logos img {
    max-width: 400px;
+   margin-top: 24px;
  }
 
 #customer-logos {
